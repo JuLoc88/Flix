@@ -1296,3 +1296,4 @@ Started GET "/assets/arrow.png" for 127.0.0.1 at 2014-05-08 12:10:00 -0400
 
 
 Started GET "/assets/add.png" for 127.0.0.1 at 2014-05-08 12:10:00 -0400
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'Julian' LIMIT 1[0m
