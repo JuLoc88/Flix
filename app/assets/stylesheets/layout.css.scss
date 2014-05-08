@@ -111,11 +111,6 @@ aside#sidebar {
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  
-  h3 {
-    font-size: 110%;
-    border-bottom: 1px solid $subdued-color;
-  }
 
   a,
   a:link,
@@ -133,7 +128,13 @@ aside#sidebar {
         padding: 4px 0;
         padding-left: 25px;
 
-        &.movies a {
+        &.accounts-movie a {
+          display: block;
+          background: image-url("arrow.png") no-repeat 10px 8px;
+          padding-left: 35px;
+        }
+
+        &.all-movies a {
           display: block;
           background: image-url("arrow.png") no-repeat 10px 8px;
           padding-left: 35px;
@@ -150,10 +151,6 @@ aside#sidebar {
           color: #000;
         }
 
-        a.active {
-          background-color: $subdued-color;
-          color: #000;
-        }
       }
     }
   }

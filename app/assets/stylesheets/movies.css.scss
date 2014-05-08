@@ -152,6 +152,12 @@ fieldset {
 
 /* REVIEWS */
 
+#review_box {
+	background-color: #f0f8ff;
+	padding: 9px;
+	margin: 9px;
+}
+
 ol#reviews {
   font-size: 1.15em;
   list-style: none;
@@ -165,12 +171,10 @@ ol#reviews {
         font-weight: bold;
       }
       &.user {
-        font-size: .9em;
         font-weight: normal;
-        color: $secondary-text-color;
       }
       &.date {
-        font-size: .8em;
+        font-size: .9em;
         font-weight: bold;
         color: $secondary-text-color;
       }
@@ -178,34 +182,6 @@ ol#reviews {
 
     p {
       font-size: .95em;
-    }
-  }
-}
-
-/* FAVORITES */
-
-ol#favorites {
-  font-size: 1.15em;
-  list-style: none;
-  padding: 0;
-
-  li {
-    margin: 1em 0;
-
-    span {
-      &.date {
-        font-size: .75em;
-        color: $secondary-text-color;
-      }
-    }
-    
-    a {
-      font-weight: normal;
-    }
-    
-    img {
-      margin-right: 5px;
-      vertical-align: middle;
     }
   }
 }
