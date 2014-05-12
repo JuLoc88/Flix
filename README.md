@@ -4,3 +4,5 @@ target="_blank">Julian Locke</a>
 
 <a href="http://lockeflixdemoapp.herokuapp.com/movies"
 target="_blank">Internet Movie Database App</a>
+
+Sign in using your Gravatar email.
